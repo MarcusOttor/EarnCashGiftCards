@@ -25,7 +25,7 @@ class MainActivity : BaseActivity(), Runnable {
         bind()
         handler.post(this)
 
-        toolbarText.text = "Money Maker"
+        toolbarText.text = "Earn Money"
 
         initBanner()
 
