@@ -13,7 +13,7 @@ class HouseOffers(private var context: Context,
 
     private var coinsText: TextView? = null
 
-    private var manager: OffersManager = OffersManager(context, {}, context.packageName.toString(), currency)
+    private var manager: OffersManager = OffersManager(context, {}, "com.makefreemoney.earnfreecash.paypalvisacash", currency)
 
     fun init() {
         manager.attachRewardListener { rw ->
